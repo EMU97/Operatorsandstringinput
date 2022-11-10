@@ -1,0 +1,44 @@
+EXERCISE II
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int base, height, hypotenuse;
+    int perimeter,area;
+    base =10;
+    height=7;
+    hypotenuse=12;
+
+
+    perimeter = base+height+hypotenuse;
+    area = 0.5*base*height;
+    cout<< "The perimeter of the triangle is:"<< perimeter<<" and the area of the triangle is: "<< area <<" n/";
+    return 0;
+
+}
+
+
+EXERCISE III
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int sellingPrice,buyingPrice;
+    double profit;
+
+    cout<<"To determine the profit, enter the selling price and buying price\n";
+    cin>>sellingPrice;
+    cin>>buyingPrice;
+    
+    profit = sellingPrice-buyingPrice;
+
+    cout<<"The profit based on user input is:"<< profit <<" n/";
+
+    return 0;
+
+
+}
+
